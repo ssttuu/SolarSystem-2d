@@ -44,12 +44,7 @@ void SolarSystemApp::update()
 
 void SolarSystemApp::draw()
 {
-    //float gray = sin( getElapsedSeconds() ) * 0.5f + 0.5f;
-    //gl::clear( Color( gray, gray, gray ), true);
 	gl::clear( Color( .5, .5, .5 ), true );
-	
-	//mImage.enableAndBind();
-	//gl::draw( mImage, getWindowBounds() );
 	
 	glDisable( GL_TEXTURE_2D );
 	glColor3f( 1, 1, 1 );
