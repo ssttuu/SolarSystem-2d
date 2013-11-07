@@ -1,0 +1,286 @@
+TSolarSystem
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Info.plist" Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/SolarSystem.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.pth SolarSystem_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/Planet.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005237B2FA00000000000000AA
+t1379382010
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051853FE400000000000024F0
+t1367687140
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051853FE50000000000024DD8
+t1367687141
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051853FE500000000000060B4
+t1367687141
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051853FE600000000000001E5
+t1367687142
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051853FE6000000000000E9A8
+t1367687142
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000510D38920000000000006560
+t1359820946
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000510D3893000000000007CED0
+t1359820947
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000510D3898000000000002D360
+t1359820952
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005238E17900000000004B9FB0
+t1379459449
+s4956080
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../resources/CinderApp.icns
+c00000000527AD6440000000000070375
+t1383781956
+s459637
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp
+c00000000527AD8C200000000000006F1
+t1383782594
+s1777
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Info.plist
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/MacOS/SolarSystem
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.LinkFileList
+c00000000527ADCBF000000000000018D
+t1383783615
+s397
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/Planet.cpp
+c00000000527ADCBF0000000000000757
+t1383783615
+s1879
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp
+c00000000527ADC8E00000000000008E5
+t1383783566
+s2277
+
+N/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem_Prefix.pch
+c00000000527AD644000000000000012D
+t1383781956
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000527AD6440000000000000462
+t1383781956
+s1122
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/Planet.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies32ca6b3f142bb841^3448793f142bb841^---0#1#0#--18"Check dependencies36"D02033EE-70A0-4279-80F8-43443431DE1E-
+
+CCompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/Planet.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405476419.202390
+e405476420.259807
+r1
+xCompileC
+x./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.o
+x/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/Planet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/Planet.cpp53e93343142bb841^90834244142bb841^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/Planet.cpp0000000000000000^2986"CompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.o Planet.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug" -include /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch -MMD -MT dependencies -MF "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.d" --serialize-diagnostics "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.dia" -c "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/Planet.cpp" -o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/Planet.o"36"BADA8AB5-C61E-43AD-A1D4-C27264FF56BB-
+
+CCompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405476419.202385
+e405476420.504324
+r0
+xCompileC
+x./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.o
+x/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp:9:
+o/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:35: error: unknown type name 'Particle'
+o    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);
+o                                  ^
+o/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:49: error: unknown type name 'Particle'
+o    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);
+o                                                ^
+o/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp:88:20: error: out-of-line definition of 'calculateDirection' does not match any declaration in 'SolarSystem'
+oVec3f SolarSystem::calculateDirection( Planet* p1, Planet* p2 ) {
+o                   ^~~~~~~~~~~~~~~~~~
+o3 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp10e93343142bb841^1a188144142bb841^-812"In file included from /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp:9:/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:35: error: unknown type name 'Particle'    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);                                  ^/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:49: error: unknown type name 'Particle'    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);                                                ^/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp:88:20: error: out-of-line definition of 'calculateDirection' does not match any declaration in 'SolarSystem'Vec3f SolarSystem::calculateDirection( Planet* p1, Planet* p2 ) {                   ^~~~~~~~~~~~~~~~~~3 errors generated.3(36%IDEClangDiagnosticActivityLogMessage2@28"Unknown type name 'Particle'-405476420#18446744073709551615#0#1(2@89"In file included from /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp:9:-405476420#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp0000000000000000^8#9#8#9#98#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem.h0000000000000000^28#34#28#34#455#0#11"Parse Issue--2@28"Unknown type name 'Particle'-405476420#18446744073709551615#0#1(2@89"In file included from /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp:9:-405476420#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp0000000000000000^8#9#8#9#98#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem.h0000000000000000^28#48#28#48#469#0#11"Parse Issue--2@94"Out-of-line definition of 'calculateDirection' does not match any declaration in 'SolarSystem'-405476420#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp0000000000000000^87#19#87#19#1827#0#14"Semantic Issue1(3@82"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp0000000000000000^87#19#87#37#1827#0#-0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp0000000000000000^3016"CompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.o SolarSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug" -include /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch -MMD -MT dependencies -MF "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.d" --serialize-diagnostics "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.dia" -c "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.cpp" -o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystem.o"36"6BF18179-4E9C-4F85-B1DF-CAB5215EE9E0-
+
+CCompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405476419.202193
+e405476420.605630
+r0
+xCompileC
+x./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.o
+x/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp:5:
+o/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:35: error: unknown type name 'Particle'
+o    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);
+o                                  ^
+o/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:49: error: unknown type name 'Particle'
+o    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);
+o                                                ^
+o2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp61de3343142bb841^63099b44142bb841^-544"In file included from /Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp:5:/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:35: error: unknown type name 'Particle'    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);                                  ^/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem.h:29:49: error: unknown type name 'Particle'    ci::Vec3f calculateDirection( Particle *p1, Particle *p2);                                                ^2 errors generated.-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp0000000000000000^3048"CompileC ./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.o ../src/SolarSystemApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug" -include /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch -MMD -MT dependencies -MF "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.d" --serialize-diagnostics "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.dia" -c "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../src/SolarSystemApp.cpp" -o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/Objects-normal/i386/SolarSystemApp.o"36"5604C78A-9121-4690-A172-D42A30454E9F-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/SolarSystem.app/Contents/Resources/CinderApp.icns
+s405476415.490171
+e405476415.494597
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/SolarSystem.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy ./build/Debug/SolarSystem.app/Contents/Resources/CinderApp.icnsbe897d3f142bb841^6f9e7e3f142bb841^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Resources/CinderApp.icns000000000080d041^452"CpResource ../resources/CinderApp.icns ./build/Debug/SolarSystem.app/Contents/Resources/CinderApp.icns    cd "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/../resources/CinderApp.icns" "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Resources"36"AE401A8A-3661-44CC-973A-CD4EC709DB03-
+
+CLd "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/MacOS/SolarSystem" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Info.plist" Info.plist
+s405476415.477523
+e405476415.481440
+r1
+xProcessInfoPlistFile
+x/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistc74c7a3f142bb841^963f7b3f142bb841^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/Info.plist0000000000000000^432"ProcessInfoPlistFile ./build/Debug/SolarSystem.app/Contents/Info.plist Info.plist    cd "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app/Contents/Info.plist"36"E6B11A37-7754-435C-9DEE-3E911803177C-
+
+CProcessPCH++ /Users/Stu/Library/Developer/Xcode/DerivedData/SolarSystem-bgierulyguvdiuapmkxwnnslbhdi/Index/PrecompiledHeaders/SolarSystem_Prefix-gnopagnmqvdbwebcysbzclcjczsn_ast/SolarSystem_Prefix.pch.pth SolarSystem_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.pth SolarSystem_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405476415.502070
+e405476419.194540
+r1
+xProcessPCH++
+x/var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.pth
+xSolarSystem_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile SolarSystem_Prefix.pch0ea3803f142bb841^3ace3143142bb841^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Stu/Google%20Drive/Cinder/SolarSystem/xcode/SolarSystem_Prefix.pch0000000000000000^3050"ProcessPCH++ /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.pth SolarSystem_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/SolarSystem-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/SolarSystem.build/Debug/SolarSystem.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/build/Debug" --serialize-diagnostics /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.dia -c "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/SolarSystem_Prefix.pch" -o /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SolarSystem_Prefix-dqannrgimwtbylgkniqhhzxaxdfu/SolarSystem_Prefix.pch.d36"473532AB-0E7D-40D1-9898-B4A8B0F60646-
+
+CTouch "/Users/Stu/Google Drive/Cinder/SolarSystem/xcode/./build/Debug/SolarSystem.app"
+r0
+

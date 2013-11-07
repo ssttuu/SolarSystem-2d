@@ -1,34 +1,79 @@
-#include "cinder/app/AppNative.h"
-#include "cinder/gl/gl.h"
+#include "cinder/app/AppBasic.h"
+#include "cinder/ImageIO.h"
+#include "cinder/gl/Texture.h"
+
+#include "SolarSystem.h"
 
 using namespace ci;
 using namespace ci::app;
-using namespace std;
 
-class SolarSystemApp : public AppNative {
-  public:
+class SolarSystemApp : public AppBasic {
+public:
+	void prepareSettings( Settings *settings );
 	void setup();
-	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
+    
+	void	mouseDown( MouseEvent event );
+	void	mouseDrag( MouseEvent event );
+    void    mouseUp( MouseEvent event );
+	
+	gl::Texture mImage;
+    
+    Vec2i   mPlanetPosition;
+    Vec2i   mPlanetDirection;
+	
+	SolarSystem mSolarSystem;
 };
+
+void SolarSystemApp::prepareSettings( Settings *settings )
+{
+	settings->setWindowSize( 1920, 1080 );
+	settings->setFrameRate( 60.0f );
+}
 
 void SolarSystemApp::setup()
 {
-}
-
-void SolarSystemApp::mouseDown( MouseEvent event )
-{
+	mSolarSystem.addPlanets( 30 );
 }
 
 void SolarSystemApp::update()
 {
+	mSolarSystem.update();
 }
 
 void SolarSystemApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) ); 
+    //float gray = sin( getElapsedSeconds() ) * 0.5f + 0.5f;
+    //gl::clear( Color( gray, gray, gray ), true);
+	gl::clear( Color( .5, .5, .5 ), true );
+	
+	//mImage.enableAndBind();
+	//gl::draw( mImage, getWindowBounds() );
+	
+	glDisable( GL_TEXTURE_2D );
+	glColor3f( 1, 1, 1 );
+	mSolarSystem.draw();
 }
 
-CINDER_APP_NATIVE( SolarSystemApp, RendererGl )
+void SolarSystemApp::mouseDown( MouseEvent event )
+{
+	console() << "Mouse down: " << event.isRight() << " & " << event.isControlDown() << std::endl;
+    mPlanetPosition = event.getPos();
+}
+
+void SolarSystemApp::mouseDrag( MouseEvent event )
+{
+	console() << "Mouse drag: " << std::endl;
+    mPlanetDirection = event.getPos() - mPlanetPosition;
+    glColor3f( 1, 1, 1 );
+    ci::gl::drawLine(  mPlanetPosition, event.getPos() );
+}
+
+void SolarSystemApp::mouseUp( MouseEvent event )
+{
+    mSolarSystem.addPlanet( mPlanetPosition, mPlanetDirection / 20.0f );
+    mPlanetDirection = Vec2i(0,0);
+}
+
+CINDER_APP_BASIC( SolarSystemApp, RendererGl )
