@@ -28,13 +28,13 @@ public:
 
 void SolarSystemApp::prepareSettings( Settings *settings )
 {
-	settings->setWindowSize( 1920, 1080 );
+	settings->setWindowSize( 800, 600 );
 	settings->setFrameRate( 60.0f );
 }
 
 void SolarSystemApp::setup()
 {
-	mSolarSystem.addPlanets( 30 );
+	mSolarSystem.addPlanets( 10 );
 }
 
 void SolarSystemApp::update()
@@ -53,13 +53,13 @@ void SolarSystemApp::draw()
 
 void SolarSystemApp::mouseDown( MouseEvent event )
 {
-	console() << "Mouse down: " << event.isRight() << " & " << event.isControlDown() << std::endl;
+	//console() << "Mouse down: " << event.isRight() << " & " << event.isControlDown() << std::endl;
     mPlanetPosition = event.getPos();
 }
 
 void SolarSystemApp::mouseDrag( MouseEvent event )
 {
-	console() << "Mouse drag: " << std::endl;
+	//console() << "Mouse drag: " << std::endl;
     mPlanetDirection = event.getPos() - mPlanetPosition;
     glColor3f( 1, 1, 1 );
     ci::gl::drawLine(  mPlanetPosition, event.getPos() );

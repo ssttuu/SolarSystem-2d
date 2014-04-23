@@ -28,8 +28,10 @@ Planet::Planet( Vec2f loc )
 	mLoc	= loc;
 	mVel	= Rand::randVec2f() * 0.0f;
     mMass   = Rand::randFloat(9.0f) + 1;
-    float c = (Rand::randFloat() * .5) + .5;
-    mColor  = ci::Color( c, c, c );
+    float cr = (Rand::randFloat() * .5) + .5;
+    float cg = (Rand::randFloat() * .5) + .5;
+    float cb = (Rand::randFloat() * .5) + .5;
+    mColor  = ci::Color( cr, cg, cb );
 }
 
 Planet::Planet( Vec2f loc, Vec2f dir )
@@ -37,8 +39,10 @@ Planet::Planet( Vec2f loc, Vec2f dir )
 	mLoc	= loc;
 	mVel	= dir;
     mMass   = Rand::randFloat(9.0f) + 1;
-    float c = (Rand::randFloat() * .5) + .5;
-    mColor  = ci::Color( c, c, c );
+    float cr = (Rand::randFloat() * .5) + .5;
+    float cg = (Rand::randFloat() * .5) + .5;
+    float cb = (Rand::randFloat() * .5) + .5;
+    mColor  = ci::Color( cr, cg, cb );
 }
 
 
@@ -46,8 +50,8 @@ void Planet::update()
 {
 	mLoc += mVel;
     
-    if (mHistory.size() >= 200) {
-        mHistory.erase(mHistory.begin());    }
+    //if (mHistory.size() >= 200) {
+    //    mHistory.erase(mHistory.begin());    }
     
     mPath.clear();
     
